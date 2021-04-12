@@ -464,7 +464,48 @@ https://templatemo.com/tm-538-digital-trend
     margin-right: 1em;
   }
 
+  .center {
+    text-align: center;
+  }
 
+  .view {
+    border: solid 2px var(--secondary-color);
+    border-radius: 10px;
+    background: none;
+    margin-left: 10px;
+    transition: .5s;
+    outline: none;
+    color: var(--secondary-color);
+  }
+
+  .view:hover{
+    background: var(--secondary-color);
+    color: white;
+  }
+
+  .view:focus{
+    outline:  none;
+  }
+
+  .list{
+    margin-left: 10px;
+    padding: 5px;
+  }
+
+  .flex{
+    padding-top: 20px;
+  }
+
+  .hr{
+    border:solid 2px var(--primary-color);
+    display: block;
+    width: 90%;
+  }
+
+  .dmail a{
+    text-decoration: underline;
+    color: var(--secondary-color);
+  }
 
   /*---------------------------------------
       ABOUT            
@@ -643,7 +684,7 @@ https://templatemo.com/tm-538-digital-trend
   @media screen and (max-width: 991px) {
 
     .hero {
-      padding-top: 14em;
+      padding-top: 5em;
     }
 
     .hero-text {
